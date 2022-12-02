@@ -322,5 +322,5 @@ SWIFT_CLASS("_TtC16PayWingsOAuthSDK15SessionDelegate")
 #endif
 
 #else
-#error unsupported Swift architecture
+//#error unsupported Swift architecture
 #endif
