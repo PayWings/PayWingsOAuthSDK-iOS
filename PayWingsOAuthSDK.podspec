@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PayWingsOAuthSDK'
-  s.version          = '1.2.2'
+  s.version          = '2.0.0'
   s.summary          = 'PayWings OAuth SDK'
 
   s.description      = 'PayWings OAuth SDK for iOS enable simplified user mobile number and email verification.'
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.paywings.com'
   s.license          = { :type => 'Copyright', :text => 'Copyright 2022 PayWings Technologies d.o.o. All rights reserved.\n' }
   s.author           = { 'tjasajan' => 'tjasa@paywings.com' }
-  s.source           = { :http => 'https://github.com/PayWings/PayWingsOAuthSDK-iOS/archive/v1.2.2.tar.gz' }
+  s.source           = { :http => 'https://github.com/PayWings/PayWingsOAuthSDK-iOS/archive/v2.0.0.tar.gz' }
 
   s.swift_versions = ['5']
   
@@ -17,6 +17,9 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "PayWingsOAuthSDK.xcframework"
   
   s.frameworks = 'UIKit'
+
+  s.dependency 'JOSESwift', '2.4.0'
+  s.dependency 'RecaptchaEnterprise', '18.3.0'
   
   
 end

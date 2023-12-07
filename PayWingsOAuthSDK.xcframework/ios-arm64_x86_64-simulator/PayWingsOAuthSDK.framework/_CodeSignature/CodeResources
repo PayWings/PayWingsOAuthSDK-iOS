@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PayWingsOAuthSDK-Swift.h</key>
 		<data>
-		vFXBrgnL7CRXfYJGu/pqCCvY4ng=
+		DStbl886Ez3hxBhbi2MR8U4bB1E=
 		</data>
 		<key>Headers/PayWingsOAuthSDK.h</key>
 		<data>
@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+sLImKnhQHVfI8KdXUJY3/mvUqI=
+		4rW84O3apd2el+5W/hUprEO3Ko0=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CYKAGvuPrFucjDxP/ll1ZOK0wGU=
+		PqQDShaPen+kFmkVcyfFpWPvPXE=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		H5rtaC+kyflrjiSkiEZa3ZyUs2s=
+		w+vpFrDxeZvlSjqe8g4S6pLSxzs=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CYKAGvuPrFucjDxP/ll1ZOK0wGU=
+		PqQDShaPen+kFmkVcyfFpWPvPXE=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nUk2WLt+K6I+R5BskMZ1WgisZMA=
+		fXshtLX7tVlFxKzew+++zm3w6hU=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+sLImKnhQHVfI8KdXUJY3/mvUqI=
+		4rW84O3apd2el+5W/hUprEO3Ko0=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FUvXETbp4/USAfylhR4MHTEaCZA=
+		JR6z2JwE4yonIGwh9fL7QfeEXck=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		QH2K3yJbJpmBq/QALiUQ2/8Wiwo=
+		BPHn3T2tpb2MvSYYT81Fo9uxp88=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FUvXETbp4/USAfylhR4MHTEaCZA=
+		JR6z2JwE4yonIGwh9fL7QfeEXck=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1dpvTD3/S58N7czQwtLW/qXKGTA=
+		sP50Cw0u8AkvVGR62PwGb+yxrzE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>PayWingsOAuthSDK.podspec</key>
 		<data>
-		CFO+0ICr8JG1ogf+eqb6jOLyjfc=
+		TgKNlN9e/dE7AS+HtZtLKIfX3Us=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LO08Cfne9k8xrJtJ1zoGKIWhVET5OIT3LlJScElU89c=
+			sDzwPr4piX5cySlWO3iwM88zEqX0jsI2h1k2Vq8nvKE=
 			</data>
 		</dict>
 		<key>Headers/PayWingsOAuthSDK.h</key>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yseob7TuWOkoO8SLptdEDcE4nn2t3JFg3+kLtuks4oE=
+			XtdCSjdhsqzm49GKnZjdlb6W5aXS2zCpaXTd2AImEfs=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8sggs+IhIIgTlHl6HhhukQyPRTSUfVRJTny8jK09HNY=
+			rbiBJsEKOfsa1ensz4RruBaX4wqa6+Tk0r/aBKJyAMQ=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a1R6KGs4VUnGivNA6br86dboisutSkZNI1XuHwMI3y0=
+			kTTuiW4YaS1Lt1n2qXJSNg2F5iuZE3+dXPZpeL0hcsM=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8sggs+IhIIgTlHl6HhhukQyPRTSUfVRJTny8jK09HNY=
+			rbiBJsEKOfsa1ensz4RruBaX4wqa6+Tk0r/aBKJyAMQ=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hem7wS6hCIgU13Jd5xqQ9/1ajjfPF2Q6zG0RVf7KeV4=
+			zzjXeuWuat3MNV3uNg6WVYH5R+XWj4MTe2OIHG5o+kc=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yseob7TuWOkoO8SLptdEDcE4nn2t3JFg3+kLtuks4oE=
+			XtdCSjdhsqzm49GKnZjdlb6W5aXS2zCpaXTd2AImEfs=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nGi4fBv0ikTbMji3uru4DspzHJqngy6IIwYHT659wFQ=
+			hnkX4Uq/XK5oM14r4+eieqQL0OSWVUjSAksLbhR3fLE=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lpEwUcrytWSretooyjuTvkRABe46Sy/B5FywwphnwXY=
+			A5ZSavLpFITuJJQbU9b8AN0OHmljyDaw4fZFcCom1oY=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nGi4fBv0ikTbMji3uru4DspzHJqngy6IIwYHT659wFQ=
+			hnkX4Uq/XK5oM14r4+eieqQL0OSWVUjSAksLbhR3fLE=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lj420pr7nGv2hzn/aBVFSGkR6IhxdBNTDaFb4t7/YOM=
+			u6FgdWW8NA4xrygX0VxgjHlj3mIk2SQBDdP1OhMZ2Ms=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -162,7 +162,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Njxr4auK1K5AWQBnVNCmZJ1HJjiKkVi8RLu0vhEubTI=
+			BUCHCYJcsbHOu0FmHfjh0kSGNXFy5Lp+8qRnI+MY/DU=
 			</data>
 		</dict>
 	</dict>
