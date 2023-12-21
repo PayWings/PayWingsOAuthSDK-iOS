@@ -87370,28 +87370,28 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "StringLiteral",
-      "offset": 3588,
+      "offset": 3639,
       "length": 41,
       "value": "\"User is suspended by the overwatch team\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "StringLiteral",
-      "offset": 3674,
+      "offset": 3725,
       "length": 45,
       "value": "\"User is suspended - too many login attempts\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "StringLiteral",
-      "offset": 3588,
+      "offset": 3639,
       "length": 41,
       "value": "\"User is suspended by the overwatch team\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "StringLiteral",
-      "offset": 3674,
+      "offset": 3725,
       "length": 45,
       "value": "\"User is suspended - too many login attempts\""
     },
@@ -88112,7 +88112,7 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 17647,
+      "offset": 17649,
       "length": 1,
       "value": "3"
     },
