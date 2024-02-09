@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		nvRjy5Jv8K6S5yfJP6j0FPwdlCU=
+		Nk1N40t+z+Me07i1mwwkOhSoFxk=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YRvkm5BQfGlDPGPLSi3YF25alec=
+		7pPczKZI0rCAbHB3MvP2yNLk56w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>PayWingsOAuthSDK.podspec</key>
 		<data>
-		TgKNlN9e/dE7AS+HtZtLKIfX3Us=
+		6gjrgqcR+sxxYRrx48QHGMwrbTU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -65,7 +65,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rK7Rj1gfAOmkC3vpwCrJ0vHpVGDQwtfXghQf2uPFg1o=
+			+k9TL09/m4XZ4JEjXK8xChcwHsekUf9H/RDNABSB8BA=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -93,7 +93,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YhlEcUmGG/9Sl4Q4U/ihPPtk94J/pO8HSzbYX4LVT5c=
+			0VW/lLKH14/6DRNBhNtizFQ4iLEi5XZVRwVvsst30Dk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BUCHCYJcsbHOu0FmHfjh0kSGNXFy5Lp+8qRnI+MY/DU=
+			eKvIC3kVGG3u07tTaG2ZB4ZKz7z40MIEq3i5lvvCI4M=
 			</data>
 		</dict>
 	</dict>

@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		nvRjy5Jv8K6S5yfJP6j0FPwdlCU=
+		Nk1N40t+z+Me07i1mwwkOhSoFxk=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fXshtLX7tVlFxKzew+++zm3w6hU=
+		BayQfqrHarKULi3/+vlUSXTog5g=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		nvRjy5Jv8K6S5yfJP6j0FPwdlCU=
+		Nk1N40t+z+Me07i1mwwkOhSoFxk=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sP50Cw0u8AkvVGR62PwGb+yxrzE=
+		CFMwWfHS632Fyss2xXOE+fmHr8E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>PayWingsOAuthSDK.podspec</key>
 		<data>
-		TgKNlN9e/dE7AS+HtZtLKIfX3Us=
+		6gjrgqcR+sxxYRrx48QHGMwrbTU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rK7Rj1gfAOmkC3vpwCrJ0vHpVGDQwtfXghQf2uPFg1o=
+			+k9TL09/m4XZ4JEjXK8xChcwHsekUf9H/RDNABSB8BA=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -113,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zzjXeuWuat3MNV3uNg6WVYH5R+XWj4MTe2OIHG5o+kc=
+			FOXAojvWrbn2t6pAj2pAarGZ38fSaPCpFeL2tKiUhno=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rK7Rj1gfAOmkC3vpwCrJ0vHpVGDQwtfXghQf2uPFg1o=
+			+k9TL09/m4XZ4JEjXK8xChcwHsekUf9H/RDNABSB8BA=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -148,7 +148,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u6FgdWW8NA4xrygX0VxgjHlj3mIk2SQBDdP1OhMZ2Ms=
+			RIHikbBwq/zWdcjPF3Eyc1Q8vQlm8waLYy+CuCnoVm4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -162,7 +162,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BUCHCYJcsbHOu0FmHfjh0kSGNXFy5Lp+8qRnI+MY/DU=
+			eKvIC3kVGG3u07tTaG2ZB4ZKz7z40MIEq3i5lvvCI4M=
 			</data>
 		</dict>
 	</dict>
