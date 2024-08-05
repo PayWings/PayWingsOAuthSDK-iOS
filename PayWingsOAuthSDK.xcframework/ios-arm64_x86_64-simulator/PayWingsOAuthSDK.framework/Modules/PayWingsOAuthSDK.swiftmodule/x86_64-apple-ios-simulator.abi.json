@@ -6793,6 +6793,242 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "IdentifierChangeType",
+        "printedName": "IdentifierChangeType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "PHONE_NUMBER",
+            "printedName": "PHONE_NUMBER",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayWingsOAuthSDK.IdentifierChangeType.Type) -> PayWingsOAuthSDK.IdentifierChangeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdentifierChangeType",
+                    "printedName": "PayWingsOAuthSDK.IdentifierChangeType",
+                    "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PayWingsOAuthSDK.IdentifierChangeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdentifierChangeType",
+                        "printedName": "PayWingsOAuthSDK.IdentifierChangeType",
+                        "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO12PHONE_NUMBERyA2CmF",
+            "mangledName": "$s16PayWingsOAuthSDK20IdentifierChangeTypeO12PHONE_NUMBERyA2CmF",
+            "moduleName": "PayWingsOAuthSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EMAIL",
+            "printedName": "EMAIL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayWingsOAuthSDK.IdentifierChangeType.Type) -> PayWingsOAuthSDK.IdentifierChangeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdentifierChangeType",
+                    "printedName": "PayWingsOAuthSDK.IdentifierChangeType",
+                    "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PayWingsOAuthSDK.IdentifierChangeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdentifierChangeType",
+                        "printedName": "PayWingsOAuthSDK.IdentifierChangeType",
+                        "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO5EMAILyA2CmF",
+            "mangledName": "$s16PayWingsOAuthSDK20IdentifierChangeTypeO5EMAILyA2CmF",
+            "moduleName": "PayWingsOAuthSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "UNKNOWN",
+            "printedName": "UNKNOWN",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayWingsOAuthSDK.IdentifierChangeType.Type) -> PayWingsOAuthSDK.IdentifierChangeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdentifierChangeType",
+                    "printedName": "PayWingsOAuthSDK.IdentifierChangeType",
+                    "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PayWingsOAuthSDK.IdentifierChangeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IdentifierChangeType",
+                        "printedName": "PayWingsOAuthSDK.IdentifierChangeType",
+                        "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO7UNKNOWNyA2CmF",
+            "mangledName": "$s16PayWingsOAuthSDK20IdentifierChangeTypeO7UNKNOWNyA2CmF",
+            "moduleName": "PayWingsOAuthSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PayWingsOAuthSDK.IdentifierChangeType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdentifierChangeType",
+                    "printedName": "PayWingsOAuthSDK.IdentifierChangeType",
+                    "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s16PayWingsOAuthSDK20IdentifierChangeTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "PayWingsOAuthSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO8rawValueSivp",
+            "mangledName": "$s16PayWingsOAuthSDK20IdentifierChangeTypeO8rawValueSivp",
+            "moduleName": "PayWingsOAuthSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO8rawValueSivg",
+                "mangledName": "$s16PayWingsOAuthSDK20IdentifierChangeTypeO8rawValueSivg",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO",
+        "mangledName": "$s16PayWingsOAuthSDK20IdentifierChangeTypeO",
+        "moduleName": "PayWingsOAuthSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -7538,6 +7774,256 @@
             "declKind": "Func",
             "usr": "s:16PayWingsOAuthSDK0C15ServiceProtocolP26verifyPhoneNumberVerifyOtp3otp8callbackySS_AA0jhijK8CallbackCtF",
             "mangledName": "$s16PayWingsOAuthSDK0C15ServiceProtocolP26verifyPhoneNumberVerifyOtp3otp8callbackySS_AA0jhijK8CallbackCtF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.OAuthServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.OAuthServiceProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkUserIdentifierChangeInProgress",
+            "printedName": "checkUserIdentifierChangeInProgress(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CheckUserIdentifierChangeInProgressCallback",
+                "printedName": "PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallback",
+                "usr": "s:16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK0C15ServiceProtocolP35checkUserIdentifierChangeInProgress8callbackyAA05CheckhijkL8CallbackC_tF",
+            "mangledName": "$s16PayWingsOAuthSDK0C15ServiceProtocolP35checkUserIdentifierChangeInProgress8callbackyAA05CheckhijkL8CallbackC_tF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.OAuthServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.OAuthServiceProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changePhoneNumberRequest",
+            "printedName": "changePhoneNumberRequest(newPhoneNumberCountryCode:newPhoneNumber:smsContentTemplate:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChangePhoneNumberRequestCallback",
+                "printedName": "PayWingsOAuthSDK.ChangePhoneNumberRequestCallback",
+                "usr": "s:16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK0C15ServiceProtocolP24changePhoneNumberRequest03newhI11CountryCode0khI018smsContentTemplate8callbackySS_S2SSgAA06ChangehiJ8CallbackCtF",
+            "mangledName": "$s16PayWingsOAuthSDK0C15ServiceProtocolP24changePhoneNumberRequest03newhI11CountryCode0khI018smsContentTemplate8callbackySS_S2SSgAA06ChangehiJ8CallbackCtF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.OAuthServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.OAuthServiceProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changePhoneNumberConfirmation",
+            "printedName": "changePhoneNumberConfirmation(smsOtp:secondaryVerificationIdentifierOtp:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChangePhoneNumberConfirmationCallback",
+                "printedName": "PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallback",
+                "usr": "s:16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK0C15ServiceProtocolP29changePhoneNumberConfirmation6smsOtp031secondaryVerificationIdentifierL08callbackySS_SSSgAA06ChangehiJ8CallbackCtF",
+            "mangledName": "$s16PayWingsOAuthSDK0C15ServiceProtocolP29changePhoneNumberConfirmation6smsOtp031secondaryVerificationIdentifierL08callbackySS_SSSgAA06ChangehiJ8CallbackCtF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.OAuthServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.OAuthServiceProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeEmailRequest",
+            "printedName": "changeEmailRequest(newEmail:customEmailHtmlSubject:customEmailHtmlTemplate:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChangeEmailRequestCallback",
+                "printedName": "PayWingsOAuthSDK.ChangeEmailRequestCallback",
+                "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK0C15ServiceProtocolP18changeEmailRequest03newH006customH11HtmlSubject0khL8Template8callbackySS_SSSgAiA06ChangehI8CallbackCtF",
+            "mangledName": "$s16PayWingsOAuthSDK0C15ServiceProtocolP18changeEmailRequest03newH006customH11HtmlSubject0khL8Template8callbackySS_SSSgAiA06ChangehI8CallbackCtF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.OAuthServiceProtocol>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.OAuthServiceProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeEmailConfirmation",
+            "printedName": "changeEmailConfirmation(emailOtp:secondaryVerificationIdentifierOtp:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ChangeEmailConfirmationCallback",
+                "printedName": "PayWingsOAuthSDK.ChangeEmailConfirmationCallback",
+                "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK0C15ServiceProtocolP23changeEmailConfirmation8emailOtp031secondaryVerificationIdentifierK08callbackySS_SSSgAA06ChangehI8CallbackCtF",
+            "mangledName": "$s16PayWingsOAuthSDK0C15ServiceProtocolP23changeEmailConfirmation8emailOtp031secondaryVerificationIdentifierK08callbackySS_SSSgAA06ChangehI8CallbackCtF",
             "moduleName": "PayWingsOAuthSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.OAuthServiceProtocol>",
             "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.OAuthServiceProtocol>",
@@ -13364,6 +13850,191 @@
             "declKind": "EnumElement",
             "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO38BLACK_LISTED_PHONE_NUMBER_COUNTRY_CODEyA2CmF",
             "mangledName": "$s16PayWingsOAuthSDK0C9ErrorCodeO38BLACK_LISTED_PHONE_NUMBER_COUNTRY_CODEyA2CmF",
+            "moduleName": "PayWingsOAuthSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "INVALID_OTP_EMAIL_TEMPLATE",
+            "printedName": "INVALID_OTP_EMAIL_TEMPLATE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayWingsOAuthSDK.OAuthErrorCode.Type) -> PayWingsOAuthSDK.OAuthErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OAuthErrorCode",
+                    "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                    "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PayWingsOAuthSDK.OAuthErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OAuthErrorCode",
+                        "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                        "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO26INVALID_OTP_EMAIL_TEMPLATEyA2CmF",
+            "mangledName": "$s16PayWingsOAuthSDK0C9ErrorCodeO26INVALID_OTP_EMAIL_TEMPLATEyA2CmF",
+            "moduleName": "PayWingsOAuthSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "LAST_IDENTIFIER_CHANGE_MIN_DAYS_NOT_PASSED",
+            "printedName": "LAST_IDENTIFIER_CHANGE_MIN_DAYS_NOT_PASSED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayWingsOAuthSDK.OAuthErrorCode.Type) -> PayWingsOAuthSDK.OAuthErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OAuthErrorCode",
+                    "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                    "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PayWingsOAuthSDK.OAuthErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OAuthErrorCode",
+                        "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                        "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO42LAST_IDENTIFIER_CHANGE_MIN_DAYS_NOT_PASSEDyA2CmF",
+            "mangledName": "$s16PayWingsOAuthSDK0C9ErrorCodeO42LAST_IDENTIFIER_CHANGE_MIN_DAYS_NOT_PASSEDyA2CmF",
+            "moduleName": "PayWingsOAuthSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "CHANGE_REQUEST_FOR_THIS_IDENTIFIER_IN_PROGRESS",
+            "printedName": "CHANGE_REQUEST_FOR_THIS_IDENTIFIER_IN_PROGRESS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayWingsOAuthSDK.OAuthErrorCode.Type) -> PayWingsOAuthSDK.OAuthErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OAuthErrorCode",
+                    "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                    "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PayWingsOAuthSDK.OAuthErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OAuthErrorCode",
+                        "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                        "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO46CHANGE_REQUEST_FOR_THIS_IDENTIFIER_IN_PROGRESSyA2CmF",
+            "mangledName": "$s16PayWingsOAuthSDK0C9ErrorCodeO46CHANGE_REQUEST_FOR_THIS_IDENTIFIER_IN_PROGRESSyA2CmF",
+            "moduleName": "PayWingsOAuthSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "CHANGE_REQUEST_FOR_ANOTHER_IDENTIFIER_IN_PROGRESS",
+            "printedName": "CHANGE_REQUEST_FOR_ANOTHER_IDENTIFIER_IN_PROGRESS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayWingsOAuthSDK.OAuthErrorCode.Type) -> PayWingsOAuthSDK.OAuthErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OAuthErrorCode",
+                    "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                    "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PayWingsOAuthSDK.OAuthErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OAuthErrorCode",
+                        "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                        "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO49CHANGE_REQUEST_FOR_ANOTHER_IDENTIFIER_IN_PROGRESSyA2CmF",
+            "mangledName": "$s16PayWingsOAuthSDK0C9ErrorCodeO49CHANGE_REQUEST_FOR_ANOTHER_IDENTIFIER_IN_PROGRESSyA2CmF",
+            "moduleName": "PayWingsOAuthSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "PHONE_NUMBER_ALREADY_IN_USE",
+            "printedName": "PHONE_NUMBER_ALREADY_IN_USE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayWingsOAuthSDK.OAuthErrorCode.Type) -> PayWingsOAuthSDK.OAuthErrorCode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OAuthErrorCode",
+                    "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                    "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PayWingsOAuthSDK.OAuthErrorCode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OAuthErrorCode",
+                        "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                        "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO27PHONE_NUMBER_ALREADY_IN_USEyA2CmF",
+            "mangledName": "$s16PayWingsOAuthSDK0C9ErrorCodeO27PHONE_NUMBER_ALREADY_IN_USEyA2CmF",
             "moduleName": "PayWingsOAuthSDK"
           },
           {
@@ -50602,6 +51273,752 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "CheckUserIdentifierChangeInProgressCallback",
+        "printedName": "CheckUserIdentifierChangeInProgressCallback",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallbackDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackC8delegateAA0efghijK8Delegate_pSgvp",
+            "mangledName": "$s16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackC8delegateAA0efghijK8Delegate_pSgvp",
+            "moduleName": "PayWingsOAuthSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallbackDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckUserIdentifierChangeInProgressCallbackDelegate",
+                        "printedName": "any PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallbackDelegate",
+                        "usr": "s:16PayWingsOAuthSDK51CheckUserIdentifierChangeInProgressCallbackDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackC8delegateAA0efghijK8Delegate_pSgvg",
+                "mangledName": "$s16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackC8delegateAA0efghijK8Delegate_pSgvg",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallbackDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckUserIdentifierChangeInProgressCallbackDelegate",
+                        "printedName": "any PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallbackDelegate",
+                        "usr": "s:16PayWingsOAuthSDK51CheckUserIdentifierChangeInProgressCallbackDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackC8delegateAA0efghijK8Delegate_pSgvs",
+                "mangledName": "$s16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackC8delegateAA0efghijK8Delegate_pSgvs",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackC8delegateAA0efghijK8Delegate_pSgvM",
+                "mangledName": "$s16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackC8delegateAA0efghijK8Delegate_pSgvM",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CheckUserIdentifierChangeInProgressCallback",
+                "printedName": "PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallback",
+                "usr": "s:16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackCACycfc",
+            "mangledName": "$s16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackCACycfc",
+            "moduleName": "PayWingsOAuthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackC",
+        "mangledName": "$s16PayWingsOAuthSDK43CheckUserIdentifierChangeInProgressCallbackC",
+        "moduleName": "PayWingsOAuthSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChangePhoneNumberRequestCallback",
+        "printedName": "ChangePhoneNumberRequestCallback",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any PayWingsOAuthSDK.ChangePhoneNumberRequestCallbackDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackC8delegateAA0efghI8Delegate_pSgvp",
+            "mangledName": "$s16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackC8delegateAA0efghI8Delegate_pSgvp",
+            "moduleName": "PayWingsOAuthSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PayWingsOAuthSDK.ChangePhoneNumberRequestCallbackDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChangePhoneNumberRequestCallbackDelegate",
+                        "printedName": "any PayWingsOAuthSDK.ChangePhoneNumberRequestCallbackDelegate",
+                        "usr": "s:16PayWingsOAuthSDK40ChangePhoneNumberRequestCallbackDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackC8delegateAA0efghI8Delegate_pSgvg",
+                "mangledName": "$s16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackC8delegateAA0efghI8Delegate_pSgvg",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PayWingsOAuthSDK.ChangePhoneNumberRequestCallbackDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChangePhoneNumberRequestCallbackDelegate",
+                        "printedName": "any PayWingsOAuthSDK.ChangePhoneNumberRequestCallbackDelegate",
+                        "usr": "s:16PayWingsOAuthSDK40ChangePhoneNumberRequestCallbackDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackC8delegateAA0efghI8Delegate_pSgvs",
+                "mangledName": "$s16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackC8delegateAA0efghI8Delegate_pSgvs",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackC8delegateAA0efghI8Delegate_pSgvM",
+                "mangledName": "$s16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackC8delegateAA0efghI8Delegate_pSgvM",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChangePhoneNumberRequestCallback",
+                "printedName": "PayWingsOAuthSDK.ChangePhoneNumberRequestCallback",
+                "usr": "s:16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackCACycfc",
+            "mangledName": "$s16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackCACycfc",
+            "moduleName": "PayWingsOAuthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackC",
+        "mangledName": "$s16PayWingsOAuthSDK32ChangePhoneNumberRequestCallbackC",
+        "moduleName": "PayWingsOAuthSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChangePhoneNumberConfirmationCallback",
+        "printedName": "ChangePhoneNumberConfirmationCallback",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackC8delegateAA0efghI8Delegate_pSgvp",
+            "mangledName": "$s16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackC8delegateAA0efghI8Delegate_pSgvp",
+            "moduleName": "PayWingsOAuthSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChangePhoneNumberConfirmationCallbackDelegate",
+                        "printedName": "any PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate",
+                        "usr": "s:16PayWingsOAuthSDK45ChangePhoneNumberConfirmationCallbackDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackC8delegateAA0efghI8Delegate_pSgvg",
+                "mangledName": "$s16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackC8delegateAA0efghI8Delegate_pSgvg",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChangePhoneNumberConfirmationCallbackDelegate",
+                        "printedName": "any PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate",
+                        "usr": "s:16PayWingsOAuthSDK45ChangePhoneNumberConfirmationCallbackDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackC8delegateAA0efghI8Delegate_pSgvs",
+                "mangledName": "$s16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackC8delegateAA0efghI8Delegate_pSgvs",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackC8delegateAA0efghI8Delegate_pSgvM",
+                "mangledName": "$s16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackC8delegateAA0efghI8Delegate_pSgvM",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChangePhoneNumberConfirmationCallback",
+                "printedName": "PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallback",
+                "usr": "s:16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackCACycfc",
+            "mangledName": "$s16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackCACycfc",
+            "moduleName": "PayWingsOAuthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackC",
+        "mangledName": "$s16PayWingsOAuthSDK37ChangePhoneNumberConfirmationCallbackC",
+        "moduleName": "PayWingsOAuthSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChangeEmailRequestCallback",
+        "printedName": "ChangeEmailRequestCallback",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvp",
+            "mangledName": "$s16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvp",
+            "moduleName": "PayWingsOAuthSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChangeEmailRequestCallbackDelegate",
+                        "printedName": "any PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate",
+                        "usr": "s:16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvg",
+                "mangledName": "$s16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvg",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChangeEmailRequestCallbackDelegate",
+                        "printedName": "any PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate",
+                        "usr": "s:16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvs",
+                "mangledName": "$s16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvs",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvM",
+                "mangledName": "$s16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvM",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChangeEmailRequestCallback",
+                "printedName": "PayWingsOAuthSDK.ChangeEmailRequestCallback",
+                "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackCACycfc",
+            "mangledName": "$s16PayWingsOAuthSDK26ChangeEmailRequestCallbackCACycfc",
+            "moduleName": "PayWingsOAuthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC",
+        "mangledName": "$s16PayWingsOAuthSDK26ChangeEmailRequestCallbackC",
+        "moduleName": "PayWingsOAuthSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChangeEmailConfirmationCallback",
+        "printedName": "ChangeEmailConfirmationCallback",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvp",
+            "mangledName": "$s16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvp",
+            "moduleName": "PayWingsOAuthSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChangeEmailConfirmationCallbackDelegate",
+                        "printedName": "any PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate",
+                        "usr": "s:16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvg",
+                "mangledName": "$s16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvg",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChangeEmailConfirmationCallbackDelegate",
+                        "printedName": "any PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate",
+                        "usr": "s:16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvs",
+                "mangledName": "$s16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvs",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvM",
+                "mangledName": "$s16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvM",
+                "moduleName": "PayWingsOAuthSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ChangeEmailConfirmationCallback",
+                "printedName": "PayWingsOAuthSDK.ChangeEmailConfirmationCallback",
+                "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackCACycfc",
+            "mangledName": "$s16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackCACycfc",
+            "moduleName": "PayWingsOAuthSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC",
+        "mangledName": "$s16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC",
+        "moduleName": "PayWingsOAuthSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -63186,6 +64603,599 @@
         "declKind": "Protocol",
         "usr": "s:16PayWingsOAuthSDK017VerifyPhoneNumberE19OtpCallbackDelegateP",
         "mangledName": "$s16PayWingsOAuthSDK017VerifyPhoneNumberE19OtpCallbackDelegateP",
+        "moduleName": "PayWingsOAuthSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CheckUserIdentifierChangeInProgressCallbackDelegate",
+        "printedName": "CheckUserIdentifierChangeInProgressCallbackDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onCheckUserIdentifierChangeInProgress",
+            "printedName": "onCheckUserIdentifierChangeInProgress(identifierChangeInProgress:changeIdentifierType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PayWingsOAuthSDK.IdentifierChangeType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdentifierChangeType",
+                    "printedName": "PayWingsOAuthSDK.IdentifierChangeType",
+                    "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK51CheckUserIdentifierChangeInProgressCallbackDelegateP02onefghiJ0010identifierhiJ006changeG4TypeySb_AA0ghP0OSgtF",
+            "mangledName": "$s16PayWingsOAuthSDK51CheckUserIdentifierChangeInProgressCallbackDelegateP02onefghiJ0010identifierhiJ006changeG4TypeySb_AA0ghP0OSgtF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallbackDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(error:errorMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OAuthErrorCode",
+                "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK51CheckUserIdentifierChangeInProgressCallbackDelegateP7onError5error0O7MessageyAA0cN4CodeO_SSSgtF",
+            "mangledName": "$s16PayWingsOAuthSDK51CheckUserIdentifierChangeInProgressCallbackDelegateP7onError5error0O7MessageyAA0cN4CodeO_SSSgtF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallbackDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16PayWingsOAuthSDK51CheckUserIdentifierChangeInProgressCallbackDelegateP",
+        "mangledName": "$s16PayWingsOAuthSDK51CheckUserIdentifierChangeInProgressCallbackDelegateP",
+        "moduleName": "PayWingsOAuthSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChangePhoneNumberRequestCallbackDelegate",
+        "printedName": "ChangePhoneNumberRequestCallbackDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onShowOtpInputScreen",
+            "printedName": "onShowOtpInputScreen(phoneNumber:smsOtpLength:isSecondaryVerificationRequired:secondaryVerificationIdentifierType:secondaryVerificationIdentifier:secondaryVerificationIdentifierOTPLength:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PayWingsOAuthSDK.IdentifierChangeType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdentifierChangeType",
+                    "printedName": "PayWingsOAuthSDK.IdentifierChangeType",
+                    "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK40ChangePhoneNumberRequestCallbackDelegateP20onShowOtpInputScreen05phoneG003smsM6Length31isSecondaryVerificationRequired09secondaryU14IdentifierType0wuX00wuX9OTPLengthySS_SiSbAA0xeY0OSgSSSgSiSgtF",
+            "mangledName": "$s16PayWingsOAuthSDK40ChangePhoneNumberRequestCallbackDelegateP20onShowOtpInputScreen05phoneG003smsM6Length31isSecondaryVerificationRequired09secondaryU14IdentifierType0wuX00wuX9OTPLengthySS_SiSbAA0xeY0OSgSSSgSiSgtF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangePhoneNumberRequestCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangePhoneNumberRequestCallbackDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(error:errorMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OAuthErrorCode",
+                "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK40ChangePhoneNumberRequestCallbackDelegateP7onError5error0M7MessageyAA0cL4CodeO_SSSgtF",
+            "mangledName": "$s16PayWingsOAuthSDK40ChangePhoneNumberRequestCallbackDelegateP7onError5error0M7MessageyAA0cL4CodeO_SSSgtF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangePhoneNumberRequestCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangePhoneNumberRequestCallbackDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16PayWingsOAuthSDK40ChangePhoneNumberRequestCallbackDelegateP",
+        "mangledName": "$s16PayWingsOAuthSDK40ChangePhoneNumberRequestCallbackDelegateP",
+        "moduleName": "PayWingsOAuthSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChangePhoneNumberConfirmationCallbackDelegate",
+        "printedName": "ChangePhoneNumberConfirmationCallbackDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onConfirmationSuccessful",
+            "printedName": "onConfirmationSuccessful()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK45ChangePhoneNumberConfirmationCallbackDelegateP02onH10SuccessfulyyF",
+            "mangledName": "$s16PayWingsOAuthSDK45ChangePhoneNumberConfirmationCallbackDelegateP02onH10SuccessfulyyF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onConfirmationFailed",
+            "printedName": "onConfirmationFailed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK45ChangePhoneNumberConfirmationCallbackDelegateP02onH6FailedyyF",
+            "mangledName": "$s16PayWingsOAuthSDK45ChangePhoneNumberConfirmationCallbackDelegateP02onH6FailedyyF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(error:errorMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OAuthErrorCode",
+                "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK45ChangePhoneNumberConfirmationCallbackDelegateP7onError5error0M7MessageyAA0cL4CodeO_SSSgtF",
+            "mangledName": "$s16PayWingsOAuthSDK45ChangePhoneNumberConfirmationCallbackDelegateP7onError5error0M7MessageyAA0cL4CodeO_SSSgtF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16PayWingsOAuthSDK45ChangePhoneNumberConfirmationCallbackDelegateP",
+        "mangledName": "$s16PayWingsOAuthSDK45ChangePhoneNumberConfirmationCallbackDelegateP",
+        "moduleName": "PayWingsOAuthSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChangeEmailRequestCallbackDelegate",
+        "printedName": "ChangeEmailRequestCallbackDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onShowOtpInputScreen",
+            "printedName": "onShowOtpInputScreen(emailSentTo:emailOtpLength:isSecondaryVerificationRequired:secondaryVerificationIdentifierType:secondaryVerificationIdentifier:secondaryVerificationIdentifierOTPLength:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PayWingsOAuthSDK.IdentifierChangeType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IdentifierChangeType",
+                    "printedName": "PayWingsOAuthSDK.IdentifierChangeType",
+                    "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP20onShowOtpInputScreen11emailSentTo0oL6Length31isSecondaryVerificationRequired09secondaryU14IdentifierType0wuX00wuX9OTPLengthySS_SiSbAA0xeY0OSgSSSgSiSgtF",
+            "mangledName": "$s16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP20onShowOtpInputScreen11emailSentTo0oL6Length31isSecondaryVerificationRequired09secondaryU14IdentifierType0wuX00wuX9OTPLengthySS_SiSbAA0xeY0OSgSSSgSiSgtF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(error:errorMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OAuthErrorCode",
+                "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP7onError5error0L7MessageyAA0cK4CodeO_SSSgtF",
+            "mangledName": "$s16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP7onError5error0L7MessageyAA0cK4CodeO_SSSgtF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP",
+        "mangledName": "$s16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP",
+        "moduleName": "PayWingsOAuthSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ChangeEmailConfirmationCallbackDelegate",
+        "printedName": "ChangeEmailConfirmationCallbackDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onConfirmationSuccessful",
+            "printedName": "onConfirmationSuccessful()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP02onG10SuccessfulyyF",
+            "mangledName": "$s16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP02onG10SuccessfulyyF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onConfirmationFailed",
+            "printedName": "onConfirmationFailed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP02onG6FailedyyF",
+            "mangledName": "$s16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP02onG6FailedyyF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(error:errorMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OAuthErrorCode",
+                "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
+                "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP7onError5error0L7MessageyAA0cK4CodeO_SSSgtF",
+            "mangledName": "$s16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP7onError5error0L7MessageyAA0cK4CodeO_SSSgtF",
+            "moduleName": "PayWingsOAuthSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate>",
+            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP",
+        "mangledName": "$s16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP",
         "moduleName": "PayWingsOAuthSDK",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
@@ -86840,6 +88850,69 @@
       "value": "9"
     },
     {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1599,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1618,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1629,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1599,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1618,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1629,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1599,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1618,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1629,
+      "length": 7,
+      "value": "3"
+    },
+    {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/PayWingsOAuthClient.swift",
       "kind": "BooleanLiteral",
       "offset": 429,
@@ -87206,142 +89279,37 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "IntegerLiteral",
-      "offset": 308,
-      "length": 1,
-      "value": "-1"
+      "offset": 1058,
+      "length": 3,
+      "value": "-21"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "IntegerLiteral",
-      "offset": 348,
-      "length": 1,
-      "value": "-2"
+      "offset": 1116,
+      "length": 3,
+      "value": "-22"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "IntegerLiteral",
-      "offset": 382,
-      "length": 1,
-      "value": "-3"
+      "offset": 1178,
+      "length": 3,
+      "value": "-23"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "IntegerLiteral",
-      "offset": 418,
-      "length": 1,
-      "value": "-4"
+      "offset": 1243,
+      "length": 3,
+      "value": "-24"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "IntegerLiteral",
-      "offset": 453,
-      "length": 1,
-      "value": "-5"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 492,
-      "length": 1,
-      "value": "-6"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 524,
-      "length": 1,
-      "value": "-7"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 550,
-      "length": 1,
-      "value": "-8"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 583,
-      "length": 1,
-      "value": "-9"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 615,
-      "length": 1,
-      "value": "-10"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 644,
-      "length": 1,
-      "value": "-11"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 673,
-      "length": 1,
-      "value": "-12"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 711,
-      "length": 1,
-      "value": "-13"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 752,
-      "length": 1,
-      "value": "-14"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 798,
-      "length": 1,
-      "value": "-15"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 829,
-      "length": 1,
-      "value": "-16"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 875,
-      "length": 1,
-      "value": "-17"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 913,
-      "length": 1,
-      "value": "-18"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 962,
-      "length": 1,
-      "value": "-19"
-    },
-    {
-      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1016,
-      "length": 1,
-      "value": "-20"
+      "offset": 1286,
+      "length": 3,
+      "value": "-25"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
@@ -87482,32 +89450,242 @@
       "offset": 1016,
       "length": 1,
       "value": "-20"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1058,
+      "length": 1,
+      "value": "-21"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1116,
+      "length": 1,
+      "value": "-22"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1178,
+      "length": 1,
+      "value": "-23"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1243,
+      "length": 1,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1286,
+      "length": 1,
+      "value": "-25"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 308,
+      "length": 1,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 348,
+      "length": 1,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 382,
+      "length": 1,
+      "value": "-3"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 418,
+      "length": 1,
+      "value": "-4"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 453,
+      "length": 1,
+      "value": "-5"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 492,
+      "length": 1,
+      "value": "-6"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 524,
+      "length": 1,
+      "value": "-7"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 550,
+      "length": 1,
+      "value": "-8"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 583,
+      "length": 1,
+      "value": "-9"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 615,
+      "length": 1,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 644,
+      "length": 1,
+      "value": "-11"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 673,
+      "length": 1,
+      "value": "-12"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 711,
+      "length": 1,
+      "value": "-13"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 752,
+      "length": 1,
+      "value": "-14"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 798,
+      "length": 1,
+      "value": "-15"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 829,
+      "length": 1,
+      "value": "-16"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 875,
+      "length": 1,
+      "value": "-17"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 913,
+      "length": 1,
+      "value": "-18"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 962,
+      "length": 1,
+      "value": "-19"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1016,
+      "length": 1,
+      "value": "-20"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1058,
+      "length": 1,
+      "value": "-21"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1116,
+      "length": 1,
+      "value": "-22"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1178,
+      "length": 1,
+      "value": "-23"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1243,
+      "length": 1,
+      "value": "-24"
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1286,
+      "length": 1,
+      "value": "-25"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "StringLiteral",
-      "offset": 3639,
+      "offset": 4608,
       "length": 41,
       "value": "\"User is suspended by the overwatch team\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "StringLiteral",
-      "offset": 3725,
+      "offset": 4694,
       "length": 45,
       "value": "\"User is suspended - too many login attempts\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "StringLiteral",
-      "offset": 3639,
+      "offset": 4608,
       "length": 41,
       "value": "\"User is suspended by the overwatch team\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthError.swift",
       "kind": "StringLiteral",
-      "offset": 3725,
+      "offset": 4694,
       "length": 45,
       "value": "\"User is suspended - too many login attempts\""
     },
@@ -88228,7 +90406,7 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 17695,
+      "offset": 25024,
       "length": 1,
       "value": "3"
     },

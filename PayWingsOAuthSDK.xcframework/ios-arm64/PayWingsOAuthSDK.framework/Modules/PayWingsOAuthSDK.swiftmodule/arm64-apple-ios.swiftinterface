@@ -344,6 +344,16 @@ public enum HttpRequestMethod : Swift.String {
     get
   }
 }
+public enum IdentifierChangeType : Swift.Int {
+  case PHONE_NUMBER
+  case EMAIL
+  case UNKNOWN
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public protocol OAuthServiceProtocol {
   func changeUnverifiedEmail(email: Swift.String, callback: PayWingsOAuthSDK.ChangeUnverifiedEmailCallback)
   func checkEmailVerified(callback: PayWingsOAuthSDK.CheckEmailVerifiedCallback)
@@ -363,6 +373,11 @@ public protocol OAuthServiceProtocol {
   func signInWithPhoneTimeBasedOTPVerification(timeBasedOtp: Swift.String, callback: PayWingsOAuthSDK.SignInWithPhoneTimeBasedOTPVerificationCallback)
   func verifyPhoneNumberRequestOtp(phoneNumberCountryCode: Swift.String, phoneNumber: Swift.String, smsContentTemplate: Swift.String?, callback: PayWingsOAuthSDK.VerifyPhoneNumberRequestOtpCallback)
   func verifyPhoneNumberVerifyOtp(otp: Swift.String, callback: PayWingsOAuthSDK.VerifyPhoneNumberVerifyOtpCallback)
+  func checkUserIdentifierChangeInProgress(callback: PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallback)
+  func changePhoneNumberRequest(newPhoneNumberCountryCode: Swift.String, newPhoneNumber: Swift.String, smsContentTemplate: Swift.String?, callback: PayWingsOAuthSDK.ChangePhoneNumberRequestCallback)
+  func changePhoneNumberConfirmation(smsOtp: Swift.String, secondaryVerificationIdentifierOtp: Swift.String?, callback: PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallback)
+  func changeEmailRequest(newEmail: Swift.String, customEmailHtmlSubject: Swift.String?, customEmailHtmlTemplate: Swift.String?, callback: PayWingsOAuthSDK.ChangeEmailRequestCallback)
+  func changeEmailConfirmation(emailOtp: Swift.String, secondaryVerificationIdentifierOtp: Swift.String?, callback: PayWingsOAuthSDK.ChangeEmailConfirmationCallback)
 }
 @_hasMissingDesignatedInitializers final public class PayWingsOAuthClient {
   final public class func instance() -> (any PayWingsOAuthSDK.OAuthServiceProtocol)?
@@ -665,6 +680,11 @@ public enum OAuthErrorCode : Swift.Int {
   case MISSING_TIME_BASED_OTP
   case INVALID_PHONE_NUMBER_COUNTRY_CODE
   case BLACK_LISTED_PHONE_NUMBER_COUNTRY_CODE
+  case INVALID_OTP_EMAIL_TEMPLATE
+  case LAST_IDENTIFIER_CHANGE_MIN_DAYS_NOT_PASSED
+  case CHANGE_REQUEST_FOR_THIS_IDENTIFIER_IN_PROGRESS
+  case CHANGE_REQUEST_FOR_ANOTHER_IDENTIFIER_IN_PROGRESS
+  case PHONE_NUMBER_ALREADY_IN_USE
   public var description: Swift.String {
     get
   }
@@ -1765,6 +1785,31 @@ final public class VerifyPhoneNumberVerifyOtpCallback {
   public init()
   @objc deinit
 }
+final public class CheckUserIdentifierChangeInProgressCallback {
+  weak final public var delegate: (any PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallbackDelegate)?
+  public init()
+  @objc deinit
+}
+final public class ChangePhoneNumberRequestCallback {
+  weak final public var delegate: (any PayWingsOAuthSDK.ChangePhoneNumberRequestCallbackDelegate)?
+  public init()
+  @objc deinit
+}
+final public class ChangePhoneNumberConfirmationCallback {
+  weak final public var delegate: (any PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate)?
+  public init()
+  @objc deinit
+}
+final public class ChangeEmailRequestCallback {
+  weak final public var delegate: (any PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate)?
+  public init()
+  @objc deinit
+}
+final public class ChangeEmailConfirmationCallback {
+  weak final public var delegate: (any PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate)?
+  public init()
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers open class NetworkReachabilityManager {
   public enum NetworkReachabilityStatus {
     case unknown
@@ -2187,6 +2232,28 @@ public protocol VerifyPhoneNumberRequestOtpCallbackDelegate : AnyObject {
 public protocol VerifyPhoneNumberVerifyOtpCallbackDelegate : AnyObject {
   func onVerificationFailed()
   func onVerificationSuccessful()
+  func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
+}
+public protocol CheckUserIdentifierChangeInProgressCallbackDelegate : AnyObject {
+  func onCheckUserIdentifierChangeInProgress(identifierChangeInProgress: Swift.Bool, changeIdentifierType: PayWingsOAuthSDK.IdentifierChangeType?)
+  func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
+}
+public protocol ChangePhoneNumberRequestCallbackDelegate : AnyObject {
+  func onShowOtpInputScreen(phoneNumber: Swift.String, smsOtpLength: Swift.Int, isSecondaryVerificationRequired: Swift.Bool, secondaryVerificationIdentifierType: PayWingsOAuthSDK.IdentifierChangeType?, secondaryVerificationIdentifier: Swift.String?, secondaryVerificationIdentifierOTPLength: Swift.Int?)
+  func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
+}
+public protocol ChangePhoneNumberConfirmationCallbackDelegate : AnyObject {
+  func onConfirmationSuccessful()
+  func onConfirmationFailed()
+  func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
+}
+public protocol ChangeEmailRequestCallbackDelegate : AnyObject {
+  func onShowOtpInputScreen(emailSentTo: Swift.String, emailOtpLength: Swift.Int, isSecondaryVerificationRequired: Swift.Bool, secondaryVerificationIdentifierType: PayWingsOAuthSDK.IdentifierChangeType?, secondaryVerificationIdentifier: Swift.String?, secondaryVerificationIdentifierOTPLength: Swift.Int?)
+  func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
+}
+public protocol ChangeEmailConfirmationCallbackDelegate : AnyObject {
+  func onConfirmationSuccessful()
+  func onConfirmationFailed()
   func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
 }
 @_hasMissingDesignatedInitializers public class AccessTokenData {
@@ -2831,6 +2898,9 @@ extension PayWingsOAuthSDK.EnvironmentType : Swift.RawRepresentable {}
 extension PayWingsOAuthSDK.HttpRequestMethod : Swift.Equatable {}
 extension PayWingsOAuthSDK.HttpRequestMethod : Swift.Hashable {}
 extension PayWingsOAuthSDK.HttpRequestMethod : Swift.RawRepresentable {}
+extension PayWingsOAuthSDK.IdentifierChangeType : Swift.Equatable {}
+extension PayWingsOAuthSDK.IdentifierChangeType : Swift.Hashable {}
+extension PayWingsOAuthSDK.IdentifierChangeType : Swift.RawRepresentable {}
 extension PayWingsOAuthSDK.OAuthErrorCode : Swift.Equatable {}
 extension PayWingsOAuthSDK.OAuthErrorCode : Swift.Hashable {}
 extension PayWingsOAuthSDK.OAuthErrorCode : Swift.RawRepresentable {}
