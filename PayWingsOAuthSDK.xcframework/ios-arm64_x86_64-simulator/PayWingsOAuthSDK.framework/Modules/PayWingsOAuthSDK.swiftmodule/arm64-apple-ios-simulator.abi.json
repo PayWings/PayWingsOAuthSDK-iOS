@@ -7919,120 +7919,6 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "changeEmailRequest",
-            "printedName": "changeEmailRequest(newEmail:customEmailHtmlSubject:customEmailHtmlTemplate:callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ChangeEmailRequestCallback",
-                "printedName": "PayWingsOAuthSDK.ChangeEmailRequestCallback",
-                "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16PayWingsOAuthSDK0C15ServiceProtocolP18changeEmailRequest03newH006customH11HtmlSubject0khL8Template8callbackySS_SSSgAiA06ChangehI8CallbackCtF",
-            "mangledName": "$s16PayWingsOAuthSDK0C15ServiceProtocolP18changeEmailRequest03newH006customH11HtmlSubject0khL8Template8callbackySS_SSSgAiA06ChangehI8CallbackCtF",
-            "moduleName": "PayWingsOAuthSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.OAuthServiceProtocol>",
-            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.OAuthServiceProtocol>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "changeEmailConfirmation",
-            "printedName": "changeEmailConfirmation(emailOtp:secondaryVerificationIdentifierOtp:callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ChangeEmailConfirmationCallback",
-                "printedName": "PayWingsOAuthSDK.ChangeEmailConfirmationCallback",
-                "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16PayWingsOAuthSDK0C15ServiceProtocolP23changeEmailConfirmation8emailOtp031secondaryVerificationIdentifierK08callbackySS_SSSgAA06ChangehI8CallbackCtF",
-            "mangledName": "$s16PayWingsOAuthSDK0C15ServiceProtocolP23changeEmailConfirmation8emailOtp031secondaryVerificationIdentifierK08callbackySS_SSSgAA06ChangehI8CallbackCtF",
-            "moduleName": "PayWingsOAuthSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.OAuthServiceProtocol>",
-            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.OAuthServiceProtocol>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -8389,6 +8275,56 @@
             "declKind": "Func",
             "usr": "s:16PayWingsOAuthSDK0abC6ClientC6unlock8passcode17completionHandlerySS_ySb_SSSgtXEtFZ",
             "mangledName": "$s16PayWingsOAuthSDK0abC6ClientC6unlock8passcode17completionHandlerySS_ySb_SSSgtXEtFZ",
+            "moduleName": "PayWingsOAuthSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reinitialize",
+            "printedName": "reinitialize(environmentType:apiKey:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EnvironmentType",
+                "printedName": "PayWingsOAuthSDK.EnvironmentType",
+                "usr": "s:16PayWingsOAuthSDK15EnvironmentTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PayWingsOAuthSDK.OAuthInitializationCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OAuthInitializationCallback",
+                    "printedName": "PayWingsOAuthSDK.OAuthInitializationCallback",
+                    "usr": "s:16PayWingsOAuthSDK0C22InitializationCallbackC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PayWingsOAuthSDK0abC6ClientC12reinitialize15environmentType6apiKey8callbackyAA011EnvironmentH0O_SSAA0C22InitializationCallbackCSgtFZ",
+            "mangledName": "$s16PayWingsOAuthSDK0abC6ClientC12reinitialize15environmentType6apiKey8callbackyAA011EnvironmentH0O_SSAA0C22InitializationCallbackCSgtFZ",
             "moduleName": "PayWingsOAuthSDK",
             "static": true,
             "declAttributes": [
@@ -51721,304 +51657,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "ChangeEmailRequestCallback",
-        "printedName": "ChangeEmailRequestCallback",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvp",
-            "mangledName": "$s16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvp",
-            "moduleName": "PayWingsOAuthSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ChangeEmailRequestCallbackDelegate",
-                        "printedName": "any PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate",
-                        "usr": "s:16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvg",
-                "mangledName": "$s16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvg",
-                "moduleName": "PayWingsOAuthSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ChangeEmailRequestCallbackDelegate",
-                        "printedName": "any PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate",
-                        "usr": "s:16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvs",
-                "mangledName": "$s16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvs",
-                "moduleName": "PayWingsOAuthSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvM",
-                "mangledName": "$s16PayWingsOAuthSDK26ChangeEmailRequestCallbackC8delegateAA0efgH8Delegate_pSgvM",
-                "moduleName": "PayWingsOAuthSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ChangeEmailRequestCallback",
-                "printedName": "PayWingsOAuthSDK.ChangeEmailRequestCallback",
-                "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackCACycfc",
-            "mangledName": "$s16PayWingsOAuthSDK26ChangeEmailRequestCallbackCACycfc",
-            "moduleName": "PayWingsOAuthSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:16PayWingsOAuthSDK26ChangeEmailRequestCallbackC",
-        "mangledName": "$s16PayWingsOAuthSDK26ChangeEmailRequestCallbackC",
-        "moduleName": "PayWingsOAuthSDK",
-        "declAttributes": [
-          "Final",
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ChangeEmailConfirmationCallback",
-        "printedName": "ChangeEmailConfirmationCallback",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "(any PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate)?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvp",
-            "mangledName": "$s16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvp",
-            "moduleName": "PayWingsOAuthSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ChangeEmailConfirmationCallbackDelegate",
-                        "printedName": "any PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate",
-                        "usr": "s:16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvg",
-                "mangledName": "$s16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvg",
-                "moduleName": "PayWingsOAuthSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ChangeEmailConfirmationCallbackDelegate",
-                        "printedName": "any PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate",
-                        "usr": "s:16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvs",
-                "mangledName": "$s16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvs",
-                "moduleName": "PayWingsOAuthSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvM",
-                "mangledName": "$s16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC8delegateAA0efgH8Delegate_pSgvM",
-                "moduleName": "PayWingsOAuthSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ChangeEmailConfirmationCallback",
-                "printedName": "PayWingsOAuthSDK.ChangeEmailConfirmationCallback",
-                "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackCACycfc",
-            "mangledName": "$s16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackCACycfc",
-            "moduleName": "PayWingsOAuthSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC",
-        "mangledName": "$s16PayWingsOAuthSDK31ChangeEmailConfirmationCallbackC",
-        "moduleName": "PayWingsOAuthSDK",
-        "declAttributes": [
-          "Final",
-          "AccessControl"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -64950,252 +64588,6 @@
         "declKind": "Protocol",
         "usr": "s:16PayWingsOAuthSDK45ChangePhoneNumberConfirmationCallbackDelegateP",
         "mangledName": "$s16PayWingsOAuthSDK45ChangePhoneNumberConfirmationCallbackDelegateP",
-        "moduleName": "PayWingsOAuthSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ChangeEmailRequestCallbackDelegate",
-        "printedName": "ChangeEmailRequestCallbackDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onShowOtpInputScreen",
-            "printedName": "onShowOtpInputScreen(emailSentTo:emailOtpLength:isSecondaryVerificationRequired:secondaryVerificationIdentifierType:secondaryVerificationIdentifier:secondaryVerificationIdentifierOTPLength:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "PayWingsOAuthSDK.IdentifierChangeType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IdentifierChangeType",
-                    "printedName": "PayWingsOAuthSDK.IdentifierChangeType",
-                    "usr": "s:16PayWingsOAuthSDK20IdentifierChangeTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP20onShowOtpInputScreen11emailSentTo0oL6Length31isSecondaryVerificationRequired09secondaryU14IdentifierType0wuX00wuX9OTPLengthySS_SiSbAA0xeY0OSgSSSgSiSgtF",
-            "mangledName": "$s16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP20onShowOtpInputScreen11emailSentTo0oL6Length31isSecondaryVerificationRequired09secondaryU14IdentifierType0wuX00wuX9OTPLengthySS_SiSbAA0xeY0OSgSSSgSiSgtF",
-            "moduleName": "PayWingsOAuthSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate>",
-            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onError",
-            "printedName": "onError(error:errorMessage:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OAuthErrorCode",
-                "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
-                "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP7onError5error0L7MessageyAA0cK4CodeO_SSSgtF",
-            "mangledName": "$s16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP7onError5error0L7MessageyAA0cK4CodeO_SSSgtF",
-            "moduleName": "PayWingsOAuthSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate>",
-            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP",
-        "mangledName": "$s16PayWingsOAuthSDK34ChangeEmailRequestCallbackDelegateP",
-        "moduleName": "PayWingsOAuthSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ChangeEmailConfirmationCallbackDelegate",
-        "printedName": "ChangeEmailConfirmationCallbackDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onConfirmationSuccessful",
-            "printedName": "onConfirmationSuccessful()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP02onG10SuccessfulyyF",
-            "mangledName": "$s16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP02onG10SuccessfulyyF",
-            "moduleName": "PayWingsOAuthSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate>",
-            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onConfirmationFailed",
-            "printedName": "onConfirmationFailed()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP02onG6FailedyyF",
-            "mangledName": "$s16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP02onG6FailedyyF",
-            "moduleName": "PayWingsOAuthSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate>",
-            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onError",
-            "printedName": "onError(error:errorMessage:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OAuthErrorCode",
-                "printedName": "PayWingsOAuthSDK.OAuthErrorCode",
-                "usr": "s:16PayWingsOAuthSDK0C9ErrorCodeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP7onError5error0L7MessageyAA0cK4CodeO_SSSgtF",
-            "mangledName": "$s16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP7onError5error0L7MessageyAA0cK4CodeO_SSSgtF",
-            "moduleName": "PayWingsOAuthSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate>",
-            "sugared_genericSig": "<Self where Self : PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP",
-        "mangledName": "$s16PayWingsOAuthSDK39ChangeEmailConfirmationCallbackDelegateP",
         "moduleName": "PayWingsOAuthSDK",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
@@ -90406,7 +89798,7 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 25483,
+      "offset": 25481,
       "length": 1,
       "value": "3"
     },

@@ -376,8 +376,6 @@ public protocol OAuthServiceProtocol {
   func checkUserIdentifierChangeInProgress(callback: PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallback)
   func changePhoneNumberRequest(newPhoneNumberCountryCode: Swift.String, newPhoneNumber: Swift.String, smsContentTemplate: Swift.String?, callback: PayWingsOAuthSDK.ChangePhoneNumberRequestCallback)
   func changePhoneNumberConfirmation(smsOtp: Swift.String, secondaryVerificationIdentifierOtp: Swift.String?, callback: PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallback)
-  func changeEmailRequest(newEmail: Swift.String, customEmailHtmlSubject: Swift.String?, customEmailHtmlTemplate: Swift.String?, callback: PayWingsOAuthSDK.ChangeEmailRequestCallback)
-  func changeEmailConfirmation(emailOtp: Swift.String, secondaryVerificationIdentifierOtp: Swift.String?, callback: PayWingsOAuthSDK.ChangeEmailConfirmationCallback)
 }
 @_hasMissingDesignatedInitializers final public class PayWingsOAuthClient {
   final public class func instance() -> (any PayWingsOAuthSDK.OAuthServiceProtocol)?
@@ -391,6 +389,7 @@ public protocol OAuthServiceProtocol {
   public static func initialize(environmentType: PayWingsOAuthSDK.EnvironmentType, apiKey: Swift.String, domain: Swift.String, appPlatformID: Swift.String, recaptchaKey: Swift.String, callback: PayWingsOAuthSDK.OAuthInitializationCallback? = nil)
   public static func setupSecurity(passcode: Swift.String, completionHandler: (Swift.Bool, Swift.String?) -> ())
   public static func unlock(passcode: Swift.String, completionHandler: (Swift.Bool, Swift.String?) -> ())
+  public static func reinitialize(environmentType: PayWingsOAuthSDK.EnvironmentType, apiKey: Swift.String, callback: PayWingsOAuthSDK.OAuthInitializationCallback? = nil)
 }
 extension PayWingsOAuthSDK.Request {
   public static let didResumeNotification: Foundation.Notification.Name
@@ -1800,16 +1799,6 @@ final public class ChangePhoneNumberConfirmationCallback {
   public init()
   @objc deinit
 }
-final public class ChangeEmailRequestCallback {
-  weak final public var delegate: (any PayWingsOAuthSDK.ChangeEmailRequestCallbackDelegate)?
-  public init()
-  @objc deinit
-}
-final public class ChangeEmailConfirmationCallback {
-  weak final public var delegate: (any PayWingsOAuthSDK.ChangeEmailConfirmationCallbackDelegate)?
-  public init()
-  @objc deinit
-}
 @_hasMissingDesignatedInitializers open class NetworkReachabilityManager {
   public enum NetworkReachabilityStatus {
     case unknown
@@ -2243,15 +2232,6 @@ public protocol ChangePhoneNumberRequestCallbackDelegate : AnyObject {
   func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
 }
 public protocol ChangePhoneNumberConfirmationCallbackDelegate : AnyObject {
-  func onConfirmationSuccessful()
-  func onConfirmationFailed()
-  func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
-}
-public protocol ChangeEmailRequestCallbackDelegate : AnyObject {
-  func onShowOtpInputScreen(emailSentTo: Swift.String, emailOtpLength: Swift.Int, isSecondaryVerificationRequired: Swift.Bool, secondaryVerificationIdentifierType: PayWingsOAuthSDK.IdentifierChangeType?, secondaryVerificationIdentifier: Swift.String?, secondaryVerificationIdentifierOTPLength: Swift.Int?)
-  func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
-}
-public protocol ChangeEmailConfirmationCallbackDelegate : AnyObject {
   func onConfirmationSuccessful()
   func onConfirmationFailed()
   func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
