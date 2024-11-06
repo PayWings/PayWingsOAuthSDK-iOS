@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
   
   s.frameworks = 'UIKit'
 
-  s.dependency 'JOSESwift', '2.4.0'
-  s.dependency 'RecaptchaEnterprise', '18.5.1'
+  s.dependency 'JOSESwift', '3.0.0'
+  s.dependency 'RecaptchaEnterprise', '18.6.0'
   
   
 end
