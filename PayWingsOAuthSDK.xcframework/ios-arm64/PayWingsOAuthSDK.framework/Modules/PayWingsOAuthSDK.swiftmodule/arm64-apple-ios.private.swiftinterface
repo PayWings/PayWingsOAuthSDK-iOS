@@ -374,8 +374,6 @@ public protocol OAuthServiceProtocol {
   func verifyPhoneNumberRequestOtp(phoneNumberCountryCode: Swift.String, phoneNumber: Swift.String, smsContentTemplate: Swift.String?, callback: PayWingsOAuthSDK.VerifyPhoneNumberRequestOtpCallback)
   func verifyPhoneNumberVerifyOtp(otp: Swift.String, callback: PayWingsOAuthSDK.VerifyPhoneNumberVerifyOtpCallback)
   func checkUserIdentifierChangeInProgress(callback: PayWingsOAuthSDK.CheckUserIdentifierChangeInProgressCallback)
-  func changePhoneNumberRequest(newPhoneNumberCountryCode: Swift.String, newPhoneNumber: Swift.String, smsContentTemplate: Swift.String?, callback: PayWingsOAuthSDK.ChangePhoneNumberRequestCallback)
-  func changePhoneNumberConfirmation(smsOtp: Swift.String, secondaryVerificationIdentifierOtp: Swift.String?, callback: PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallback)
 }
 @_hasMissingDesignatedInitializers final public class PayWingsOAuthClient {
   final public class func instance() -> (any PayWingsOAuthSDK.OAuthServiceProtocol)?
@@ -1789,16 +1787,6 @@ final public class CheckUserIdentifierChangeInProgressCallback {
   public init()
   @objc deinit
 }
-final public class ChangePhoneNumberRequestCallback {
-  weak final public var delegate: (any PayWingsOAuthSDK.ChangePhoneNumberRequestCallbackDelegate)?
-  public init()
-  @objc deinit
-}
-final public class ChangePhoneNumberConfirmationCallback {
-  weak final public var delegate: (any PayWingsOAuthSDK.ChangePhoneNumberConfirmationCallbackDelegate)?
-  public init()
-  @objc deinit
-}
 @_hasMissingDesignatedInitializers open class NetworkReachabilityManager {
   public enum NetworkReachabilityStatus {
     case unknown
@@ -2225,15 +2213,6 @@ public protocol VerifyPhoneNumberVerifyOtpCallbackDelegate : AnyObject {
 }
 public protocol CheckUserIdentifierChangeInProgressCallbackDelegate : AnyObject {
   func onCheckUserIdentifierChangeInProgress(identifierChangeInProgress: Swift.Bool, changeIdentifierType: PayWingsOAuthSDK.IdentifierChangeType?)
-  func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
-}
-public protocol ChangePhoneNumberRequestCallbackDelegate : AnyObject {
-  func onShowOtpInputScreen(phoneNumber: Swift.String, smsOtpLength: Swift.Int, isSecondaryVerificationRequired: Swift.Bool, secondaryVerificationIdentifierType: PayWingsOAuthSDK.IdentifierChangeType?, secondaryVerificationIdentifier: Swift.String?, secondaryVerificationIdentifierOTPLength: Swift.Int?)
-  func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
-}
-public protocol ChangePhoneNumberConfirmationCallbackDelegate : AnyObject {
-  func onConfirmationSuccessful()
-  func onConfirmationFailed()
   func onError(error: PayWingsOAuthSDK.OAuthErrorCode, errorMessage: Swift.String?)
 }
 @_hasMissingDesignatedInitializers public class AccessTokenData {
