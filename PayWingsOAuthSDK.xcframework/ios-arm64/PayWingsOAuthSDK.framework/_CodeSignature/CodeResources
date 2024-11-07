@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		jdEAOUL2vyPd79D67asoe/QnXBg=
+		64uWBe/pKUyXiSs0DTwA60oDnpM=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		kxkB6D7A66L40xq06qaehRYJS5Y=
+		leYB40BzKH2W677CiCklzxR987I=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/knrBEqN9IZoMONkF8IoEq2r+KU=
+		VRA97KvnAd22CK6UNlPTXvE6OeQ=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		kxkB6D7A66L40xq06qaehRYJS5Y=
+		leYB40BzKH2W677CiCklzxR987I=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rue+CZ9EYH5c+DspEdDHYMb7F50=
+		RSG1H2CecDcOpUKe5LDVnZe8tn8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>PayWingsOAuthSDK.podspec</key>
 		<data>
-		Dkm8V6rgVqu4UQQy5jtFyLV9VdY=
+		O8VGUuoYU8l4e+YhKRekD1w1AZI=
 		</data>
 		<key>RecaptchaEnterpriseResources.bundle/Info.plist</key>
 		<data>
@@ -73,35 +73,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1gXCSGrg4djLNpPW0vFt3UjRhe13aHjpcEKGzDl97XI=
+			8MtPgj1ak+F07YtJ6m62bHNv02cAUdLfA+vWdvThcaU=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wYBUsKY56YP0y1gbpG5nA7W6YrWevcioyWciS2suusU=
+			wPEQ7PUWAmQN+Xo7taOqva06NQYbSoMGL0Dd0/w73WM=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PvNIErXIxt98CAgAgAjKkBYA6s3WtMxP5EEAQ3Xlk2Q=
+			Ttgt256sZnYcEttGkE/O+OgecW2OZPNggzM1nGDNxYs=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wYBUsKY56YP0y1gbpG5nA7W6YrWevcioyWciS2suusU=
+			wPEQ7PUWAmQN+Xo7taOqva06NQYbSoMGL0Dd0/w73WM=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oRhp6U2rPxxANvVJmVNil5FhO++QCXm8U1eoG1JS+1U=
+			D2zmg9xDJB2+6ltx5g58aQQS0hztWsA/jH4+HSlJmDw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zIAhbtoWsFs+jmAbtarMgJg6E6NqZ63+Ivombg7/Oog=
+			f1TFumc0aDDgbirYZ/GRfLwCM2B1AgxMIQmXmyK2Tbs=
 			</data>
 		</dict>
 		<key>RecaptchaEnterpriseResources.bundle/Info.plist</key>

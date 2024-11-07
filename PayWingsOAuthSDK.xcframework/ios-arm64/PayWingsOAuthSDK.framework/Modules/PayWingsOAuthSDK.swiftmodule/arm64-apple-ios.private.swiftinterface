@@ -387,7 +387,7 @@ public protocol OAuthServiceProtocol {
   public static func initialize(environmentType: PayWingsOAuthSDK.EnvironmentType, apiKey: Swift.String, domain: Swift.String, appPlatformID: Swift.String, recaptchaKey: Swift.String, callback: PayWingsOAuthSDK.OAuthInitializationCallback? = nil)
   public static func setupSecurity(passcode: Swift.String, completionHandler: (Swift.Bool, Swift.String?) -> ())
   public static func unlock(passcode: Swift.String, completionHandler: (Swift.Bool, Swift.String?) -> ())
-  public static func reinitialize(environmentType: PayWingsOAuthSDK.EnvironmentType, apiKey: Swift.String, callback: PayWingsOAuthSDK.OAuthInitializationCallback? = nil)
+  public static func reinitialize(environmentType: PayWingsOAuthSDK.EnvironmentType, apiKey: Swift.String, appPlatformID: Swift.String, callback: PayWingsOAuthSDK.OAuthInitializationCallback? = nil)
 }
 extension PayWingsOAuthSDK.Request {
   public static let didResumeNotification: Foundation.Notification.Name

@@ -8181,7 +8181,7 @@
           {
             "kind": "Function",
             "name": "reinitialize",
-            "printedName": "reinitialize(environmentType:apiKey:callback:)",
+            "printedName": "reinitialize(environmentType:apiKey:appPlatformID:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8193,6 +8193,12 @@
                 "name": "EnvironmentType",
                 "printedName": "PayWingsOAuthSDK.EnvironmentType",
                 "usr": "s:16PayWingsOAuthSDK15EnvironmentTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -8217,8 +8223,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:16PayWingsOAuthSDK0abC6ClientC12reinitialize15environmentType6apiKey8callbackyAA011EnvironmentH0O_SSAA0C22InitializationCallbackCSgtFZ",
-            "mangledName": "$s16PayWingsOAuthSDK0abC6ClientC12reinitialize15environmentType6apiKey8callbackyAA011EnvironmentH0O_SSAA0C22InitializationCallbackCSgtFZ",
+            "usr": "s:16PayWingsOAuthSDK0abC6ClientC12reinitialize15environmentType6apiKey13appPlatformID8callbackyAA011EnvironmentH0O_S2SAA0C22InitializationCallbackCSgtFZ",
+            "mangledName": "$s16PayWingsOAuthSDK0abC6ClientC12reinitialize15environmentType6apiKey13appPlatformID8callbackyAA011EnvironmentH0O_S2SAA0C22InitializationCallbackCSgtFZ",
             "moduleName": "PayWingsOAuthSDK",
             "static": true,
             "declAttributes": [
