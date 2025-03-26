@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PayWingsOAuthSDK-Swift.h</key>
 		<data>
-		vVeL6v/QxPRX1UAJ1x0aEA02dCs=
+		t4XQA1TpmPL+Cb0q3zG++5JFBC0=
 		</data>
 		<key>Headers/PayWingsOAuthSDK.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bIqxXFzR7Nk+l5UeBN2bIGdSa6Q=
+		uACEnn0DR+0thxkxkHXHfnyVN7k=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		64uWBe/pKUyXiSs0DTwA60oDnpM=
+		yTR0It+wWIqUn6UaRJ2rwnVZmbM=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		leYB40BzKH2W677CiCklzxR987I=
+		mbX19Se7Oilgho6ixmWTDd1PEMo=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		VRA97KvnAd22CK6UNlPTXvE6OeQ=
+		/3oiWdsOeWN73l3SNIcUOsJF/NA=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		leYB40BzKH2W677CiCklzxR987I=
+		yO27zXRnV9NRj87oSSiH1oh1JJs=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		RSG1H2CecDcOpUKe5LDVnZe8tn8=
+		G+cF2t21sCLa51reSosHrRDnqUs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,13 +42,17 @@
 		</data>
 		<key>PayWingsOAuthSDK.podspec</key>
 		<data>
-		O8VGUuoYU8l4e+YhKRekD1w1AZI=
+		hld0tCt1MnIU/OMbB9ymRvedE5U=
 		</data>
-		<key>RecaptchaEnterpriseResources.bundle/Info.plist</key>
+		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		94qxa8308jF0DUKddxTwTgyHzC8=
+		ovFJMFOLMjzh8DLJKmXncj8JIgU=
 		</data>
-		<key>RecaptchaEnterpriseResources.bundle/PrivacyInfo.xcprivacy</key>
+		<key>RecaptchaEnterpriseSDKResources.bundle/Info.plist</key>
+		<data>
+		mtKzCUY66GLNwIx+HkUQSJ5Umr4=
+		</data>
+		<key>RecaptchaEnterpriseSDKResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
 		d34/WdITFALLLJjkSHGiQSA6Z3Y=
 		</data>
@@ -59,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1gBpQGjCzBfzx52OCQWpm1TSVrS5tR+hW6DLljgMZ0Y=
+			f0T5P1d+ImlXa6OziMsDsMPRnek4wLZEOLKLSlLwTA4=
 			</data>
 		</dict>
 		<key>Headers/PayWingsOAuthSDK.h</key>
@@ -73,35 +77,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8MtPgj1ak+F07YtJ6m62bHNv02cAUdLfA+vWdvThcaU=
+			1s52AoJcm5ZvfjYazFuuilc4ujqQ6Y98asG6jgN6vMA=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wPEQ7PUWAmQN+Xo7taOqva06NQYbSoMGL0Dd0/w73WM=
+			DMePDNmFcsfLX2/iPYgkSFOTQ1QkstVYqZ3LdnXprBY=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ttgt256sZnYcEttGkE/O+OgecW2OZPNggzM1nGDNxYs=
+			7Ep+zSZZsPuYbXs8K96FC2y4CGfFSQu+FKRUDK0s9d0=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wPEQ7PUWAmQN+Xo7taOqva06NQYbSoMGL0Dd0/w73WM=
+			K8IxFUNRLw6amZ+OequsrF1nCGkVQfiPDH6FfC2IZfg=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D2zmg9xDJB2+6ltx5g58aQQS0hztWsA/jH4+HSlJmDw=
+			UkMtRDwchnexVoKIx9gu/XdDkWt7Ziy1HkdfsuHFG10=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -115,17 +119,24 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f1TFumc0aDDgbirYZ/GRfLwCM2B1AgxMIQmXmyK2Tbs=
+			SsOgD+LKY2kFGpRfGsJrHxfhhqrVaMHBaJTcxLqAtn4=
 			</data>
 		</dict>
-		<key>RecaptchaEnterpriseResources.bundle/Info.plist</key>
+		<key>PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m5sGwcq5fvStGPrcI09zxyhv2m6hznDOPc2EpgE/blk=
+			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
 			</data>
 		</dict>
-		<key>RecaptchaEnterpriseResources.bundle/PrivacyInfo.xcprivacy</key>
+		<key>RecaptchaEnterpriseSDKResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iQnUNR/LVcuQ7TCGnJcPCUcm1ZUIuk+lWS37yEeercA=
+			</data>
+		</dict>
+		<key>RecaptchaEnterpriseSDKResources.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash2</key>
 			<data>
