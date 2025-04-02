@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/PayWingsOAuthSDK-Swift.h</key>
 		<data>
-		t4XQA1TpmPL+Cb0q3zG++5JFBC0=
+		V1UQw//iQqsBSXorc8PgakpCFWg=
 		</data>
 		<key>Headers/PayWingsOAuthSDK.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uACEnn0DR+0thxkxkHXHfnyVN7k=
+		hec5GH7xRqwV/QNtc0FCjUhBlzs=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		mbX19Se7Oilgho6ixmWTDd1PEMo=
+		TS5dkB2FdyVn8VjG7USZZnY8cZ0=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/3oiWdsOeWN73l3SNIcUOsJF/NA=
+		kOjrr64PLVLXUxRvD2ZkHW/H9m4=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		yO27zXRnV9NRj87oSSiH1oh1JJs=
+		0Uze2gNZAnfvmTByKhQqf+6+eKk=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		G+cF2t21sCLa51reSosHrRDnqUs=
+		OzvFm5qBUayDENMWWxjIw5zFg4g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>PayWingsOAuthSDK.podspec</key>
 		<data>
-		hld0tCt1MnIU/OMbB9ymRvedE5U=
+		D/qfSVZZoK1dbyw59VwE0ePwV5k=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>RecaptchaEnterpriseSDKResources.bundle/Info.plist</key>
 		<data>
-		mtKzCUY66GLNwIx+HkUQSJ5Umr4=
+		mG3YL6OOK5uYYbQ/ruBwJCHrDZk=
 		</data>
 		<key>RecaptchaEnterpriseSDKResources.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f0T5P1d+ImlXa6OziMsDsMPRnek4wLZEOLKLSlLwTA4=
+			BwQUzE/G/w7fiY+FpQa+RqkfGLwmebv/gZ4IobyywyE=
 			</data>
 		</dict>
 		<key>Headers/PayWingsOAuthSDK.h</key>
@@ -84,28 +84,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DMePDNmFcsfLX2/iPYgkSFOTQ1QkstVYqZ3LdnXprBY=
+			bF+RZJ6rDJRPjBB4wN3iMO8RGNOTsVdZM1EvVEKmlc8=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Ep+zSZZsPuYbXs8K96FC2y4CGfFSQu+FKRUDK0s9d0=
+			HUNqKuJa37RrrLmzk6QjdyQJiDZpQngbf09V3i/PCX0=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K8IxFUNRLw6amZ+OequsrF1nCGkVQfiPDH6FfC2IZfg=
+			rxfdXfcZey+s4JcEZXYvh3ctr3vygE6thkobPoh18AM=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UkMtRDwchnexVoKIx9gu/XdDkWt7Ziy1HkdfsuHFG10=
+			4RiwzKXxLeBv8y1mbKeY3CxNwRbBUAvI9ifo7pYVvqQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -119,7 +119,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SsOgD+LKY2kFGpRfGsJrHxfhhqrVaMHBaJTcxLqAtn4=
+			O9FokUXxO2Rto5i70VvqcxdO6vU6rDnDeFFRvSnDLiA=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iQnUNR/LVcuQ7TCGnJcPCUcm1ZUIuk+lWS37yEeercA=
+			1VIS+M7UA5OKE7e09+rJZbYBgFjgb6jEvVUb49eqFUs=
 			</data>
 		</dict>
 		<key>RecaptchaEnterpriseSDKResources.bundle/PrivacyInfo.xcprivacy</key>
