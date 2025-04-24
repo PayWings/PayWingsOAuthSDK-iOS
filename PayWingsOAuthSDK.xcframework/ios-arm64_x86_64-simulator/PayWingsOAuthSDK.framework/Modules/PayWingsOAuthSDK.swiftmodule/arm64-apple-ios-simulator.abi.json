@@ -95254,49 +95254,56 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthData.swift",
       "kind": "StringLiteral",
-      "offset": 1632,
+      "offset": 2186,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthData.swift",
+      "kind": "StringLiteral",
+      "offset": 2341,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthData.swift",
       "kind": "IntegerLiteral",
-      "offset": 1688,
+      "offset": 2397,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthData.swift",
       "kind": "StringLiteral",
-      "offset": 1805,
+      "offset": 2514,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthData.swift",
       "kind": "IntegerLiteral",
-      "offset": 1862,
+      "offset": 2571,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthData.swift",
       "kind": "StringLiteral",
-      "offset": 1971,
+      "offset": 2680,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2021,
+      "offset": 2730,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthData.swift",
       "kind": "IntegerLiteral",
-      "offset": 2105,
+      "offset": 2814,
       "length": 2,
       "value": "60"
     },
@@ -97095,7 +97102,7 @@
     {
       "filePath": "\/Users\/tjasa\/Desktop\/PayWingsOAuth\/PayWingsOAuthSDK\/PayWingsOAuthSDK\/OAuthAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 25483,
+      "offset": 28237,
       "length": 1,
       "value": "3"
     },

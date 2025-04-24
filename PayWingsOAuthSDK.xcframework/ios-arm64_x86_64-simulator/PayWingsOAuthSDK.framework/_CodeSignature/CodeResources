@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		yTR0It+wWIqUn6UaRJ2rwnVZmbM=
+		hRQItN1eAoRFGKH4rbLZJfdolC4=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		34w1jdDj/WejwKjCzGJNFI411Lc=
+		1MMfjsAcjsDmalSmzC2VXVTAevo=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yTR0It+wWIqUn6UaRJ2rwnVZmbM=
+		hRQItN1eAoRFGKH4rbLZJfdolC4=
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LxuNXS72yedd+MBzu06VT55h/PI=
+		i3DQhJm40sT3mE5BSy+xOs1Hl6Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,7 +97,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1s52AoJcm5ZvfjYazFuuilc4ujqQ6Y98asG6jgN6vMA=
+			OjCj4UpyT+GKaTXfLz6lTk0M3i4J0zC9Zo2NUXKsnx4=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -125,14 +125,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/EesJl5s6T23vO+XgouRYRe/OaK/3smgFoOV1idk5Kc=
+			VD04tiAsbtLUCL6aI0vBdr3fcc/BocZJK2Ve+YvGJ/E=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1s52AoJcm5ZvfjYazFuuilc4ujqQ6Y98asG6jgN6vMA=
+			OjCj4UpyT+GKaTXfLz6lTk0M3i4J0zC9Zo2NUXKsnx4=
 			</data>
 		</dict>
 		<key>Modules/PayWingsOAuthSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -160,7 +160,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YWrwmOQbbFTaehFQyN5LCggwE3arpmebCpE8gBEKZxI=
+			Zit5J+1f4NoaPRWJhwzVqzdkee6YoFg3nadwCwt2pJs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
